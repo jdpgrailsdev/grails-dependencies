@@ -8,7 +8,7 @@
   <packaging>pom</packaging>
   <version>2.0.0.BUILD-SNAPSHOT-</version>
   
-  <name>Grails dependenciest</name>
+  <name>Grails dependencies</name>
   <description>POM file containing Grails dependencies.</description>
   <url>http://grails.org</url>
 
