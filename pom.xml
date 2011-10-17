@@ -6,7 +6,7 @@
   <groupId>org.grails</groupId>
   <artifactId>grails-dependencies</artifactId>
   <packaging>pom</packaging>
-  <version>2.0.0.BUILD-SNAPSHOT-</version>
+  <version>2.0.0.BUILD-SNAPSHOT</version>
   
   <name>Grails dependencies</name>
   <description>POM file containing Grails dependencies.</description>
@@ -14,6 +14,7 @@
 
   <properties>
     <grails.version>2.0.0.BUILD-SNAPSHOT</grails.version>
+	<grails.datastore.version>1.0.0.BUILD-SNAPSHOT</grails.datastore.version>
   </properties>
   
   <dependencies>
@@ -95,8 +96,8 @@
     
     <dependency>
       <groupId>org.grails</groupId>
-      <artifactId>grails-gorm</artifactId>
-      <version>${grails.version}</version>
+      <artifactId>grails-datastore-gorm</artifactId>
+      <version>${grails.datastore.version}</version>
       <exclusions>
         <exclusion>
           <groupId>org.apache.ant</groupId>
@@ -195,13 +196,13 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>1.5.8</version>
+      <version>1.6.2</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-log4j12</artifactId>
-      <version>1.5.8</version>
+      <version>1.6.2</version>
       <scope>runtime</scope>
     </dependency>
     
@@ -235,7 +236,6 @@
       <artifactId>commons-pool</artifactId>
       <version>1.5.3</version>
     </dependency>
-    
   </dependencies>
   
   <dependencyManagement>
@@ -250,7 +250,13 @@
   </dependencyManagement>
   
   <repositories>
-	  <!-- Required to get hold of javassist:javassist -->
+	<repository>
+	  <id>grails</id>
+	  <name>grails</name>
+      <url>http://repo.grails.org/grails/core</url>
+	</repository>
+	
+	<!-- Required to get hold of javassist:javassist -->
     <repository>
       <id>jboss.org</id>
       <name>jboss.org</name>
