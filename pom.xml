@@ -248,6 +248,10 @@
             <artifactId>grails-plugin-gsp</artifactId>
             <version>${project.version}</version>
             <exclusions>
+				<exclusion>
+		            <groupId>org.grails</groupId>
+		            <artifactId>grails-logging</artifactId>					
+				</exclusion>
                 <exclusion>
                     <groupId>org.codehaus.groovy</groupId>
                     <artifactId>groovy-all</artifactId>
@@ -275,9 +279,28 @@
         </dependency>
         <dependency>
             <groupId>org.grails</groupId>
-            <artifactId>grails-plugin-logging</artifactId>
+            <artifactId>grails-logging</artifactId>
             <version>${project.version}</version>
             <exclusions>
+                <exclusion>
+                    <groupId>org.codehaus.groovy</groupId>
+                    <artifactId>groovy-all</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.grails</groupId>
+            <artifactId>grails-plugin-log4j</artifactId>
+            <version>${project.version}</version>
+            <exclusions>
+				<exclusion>
+		            <groupId>org.grails</groupId>
+		            <artifactId>grails-logging</artifactId>					
+				</exclusion>	
                 <exclusion>
                     <groupId>org.codehaus.groovy</groupId>
                     <artifactId>groovy-all</artifactId>
