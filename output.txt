@@ -1,0 +1,346 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Grails dependencies 2.0.0.BUILD-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-core/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-core/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-spring/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-spring/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-bootstrap/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-bootstrap/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-crud/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-crud/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-hibernate/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-hibernate/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-simple/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-domain-class/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-domain-class/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-gorm/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+251 B           Downloaded: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-gorm/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml (251 B at 0.6 KB/sec)
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-i18n/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-i18n/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-web/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-web/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-codecs/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-codecs/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-controllers/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-controllers/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-validation/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-validation/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-core/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-converters/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-converters/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-mimetypes/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-mimetypes/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-datasource/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-datasource/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-filters/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-filters/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-gsp/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-gsp/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-logging/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-logging/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-log4j/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-log4j/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-scaffolding/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-scaffolding/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-resources/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-resources/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-services/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-services/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-servlets/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-servlets/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-url-mappings/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-plugin-url-mappings/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-webflow/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-webflow/2.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        [INFO] 
+[INFO] --- maven-dependency-plugin:2.1:tree (default-cli) @ grails-dependencies ---
+Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-simple/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+        Downloading: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-gorm/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml
+251 B           Downloaded: http://maven.dev.dealer.ddc/content/groups/dev/org/grails/grails-datastore-gorm/1.0.0.BUILD-SNAPSHOT/maven-metadata.xml (251 B at 0.6 KB/sec)
+[INFO] org.grails:grails-dependencies:pom:2.0.0.BUILD-SNAPSHOT
+[INFO] +- org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- commons-io:commons-io:jar:2.1:compile
+[INFO] |  +- (oro:oro:jar:2.0.8:runtime - omitted for duplicate)
+[INFO] |  +- (org.aspectj:aspectjrt:jar:1.6.10:runtime - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.aspectj:aspectjweaver:jar:1.6.10:runtime - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-spring:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (asm:asm:jar:3.1:runtime - omitted for duplicate)
+[INFO] |  +- (cglib:cglib:jar:2.2:runtime - omitted for duplicate)
+[INFO] |  +- (aopalliance:aopalliance:jar:1.0:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+[INFO] |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] +- org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-crud:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-datastore-core:jar:1.0.0.RC1:compile
+[INFO] +- org.grails:grails-hibernate:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- org.grails:grails-datastore-simple:jar:1.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (antlr:antlr:jar:2.7.6:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-domain-class:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- org.hibernate:hibernate-validator:jar:4.1.0.Final:runtime
+[INFO] |  |  \- javax.validation:validation-api:jar:1.0.0.GA:runtime
+[INFO] |  +- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-spring:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- javax.transaction:jta:jar:1.1:compile
+[INFO] |  +- org.hibernate:hibernate-ehcache:jar:3.6.7.Final:runtime
+[INFO] |  |  \- (org.hibernate:hibernate-core:jar:3.6.7.Final:runtime - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- org.grails:grails-datastore-gorm:jar:1.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- org.hibernate:hibernate-core:jar:3.6.7.Final:compile
+[INFO] |  |  +- antlr:antlr:jar:2.7.6:compile
+[INFO] |  |  +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |  |  +- org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final:compile
+[INFO] |  |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  |  \- (javax.transaction:jta:jar:1.1:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  +- javassist:javassist:jar:3.12.0.GA:compile
+[INFO] |  \- (org.hibernate:hibernate-commons-annotations:jar:3.2.0.Final:compile - scope updated from runtime; omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-codecs:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- commons-codec:commons-codec:jar:1.5:compile
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-controllers:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.grails:grails-plugin-validation:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-converters:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-mimetypes:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-domain-class:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-converters:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (commons-io:commons-io:jar:2.1:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-domain-class:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-datasource:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (commons-dbcp:commons-dbcp:jar:1.4:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (com.h2database:h2:jar:1.2.147:runtime - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (commons-pool:commons-pool:jar:1.5.6:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-domain-class:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.grails:grails-datastore-simple:jar:1.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-datastore-gorm:jar:1.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-i18n:jar:2.0.0.BUILD-SNAPSHOT:runtime - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-spring:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-filters:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-controllers:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-gsp:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.grails:grails-plugin-codecs:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-controllers:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-i18n:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-logging:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-log4j:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (log4j:log4j:jar:1.2.16:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jul-to-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-mimetypes:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-scaffolding:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-resources:jar:2.0.0.BUILD-SNAPSHOT:runtime - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-crud:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-services:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-servlets:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-url-mappings:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (commons-io:commons-io:jar:2.1:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-controllers:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-plugin-validation:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-domain-class:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-resources:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  \- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-spring:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-web:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (commons-collections:commons-collections:jar:3.2.1:compile - omitted for duplicate)
+[INFO] |  +- (commons-io:commons-io:jar:2.1:compile - omitted for duplicate)
+[INFO] |  +- (commons-fileupload:commons-fileupload:jar:1.2.2:compile - omitted for duplicate)
+[INFO] |  +- (xpp3:xpp3_min:jar:1.1.4c:compile - omitted for duplicate)
+[INFO] |  +- (javax.servlet:jstl:jar:1.1.2:runtime - omitted for duplicate)
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- opensymphony:sitemesh:jar:2.4:compile
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-core:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (commons-lang:commons-lang:jar:2.6:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-spring:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-bootstrap:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.grails:grails-webflow:jar:2.0.0.BUILD-SNAPSHOT:compile
+[INFO] |  +- (org.slf4j:jcl-over-slf4j:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-hibernate:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.slf4j:slf4j-api:jar:1.6.2:compile - omitted for duplicate)
+[INFO] |  +- (org.grails:grails-plugin-controllers:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] |  +- (org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile - omitted for duplicate)
+[INFO] |  \- (org.grails:grails-web:jar:2.0.0.BUILD-SNAPSHOT:compile - omitted for duplicate)
+[INFO] +- org.codehaus.groovy:groovy-all:jar:1.8.4:compile
+[INFO] +- org.aspectj:aspectjweaver:jar:1.6.10:runtime
+[INFO] +- org.aspectj:aspectjrt:jar:1.6.10:runtime
+[INFO] +- cglib:cglib:jar:2.2:runtime
+[INFO] +- asm:asm:jar:3.1:runtime
+[INFO] +- commons-fileupload:commons-fileupload:jar:1.2.2:runtime (scope not updated to compile)
+[INFO] +- oro:oro:jar:2.0.8:runtime
+[INFO] +- commons-beanutils:commons-beanutils:jar:1.8.3:runtime
+[INFO] +- commons-dbcp:commons-dbcp:jar:1.4:runtime (scope not updated to compile)
+[INFO] +- commons-el:commons-el:jar:1.0:runtime
+[INFO] +- commons-logging:commons-logging:jar:1.1.1:runtime
+[INFO] +- commons-pool:commons-pool:jar:1.5.6:runtime (scope not updated to compile)
+[INFO] +- commons-validator:commons-validator:jar:1.3.1:runtime
+[INFO] +- com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:jar:1.2_jdk5:runtime
+[INFO] +- com.h2database:h2:jar:1.2.147:runtime
+[INFO] +- javax.servlet:jstl:jar:1.1.2:runtime
+[INFO] +- xpp3:xpp3_min:jar:1.1.4c:runtime (scope not updated to compile)
+[INFO] +- net.sf.ehcache:ehcache-core:jar:2.4.6:runtime
+[INFO] +- log4j:log4j:jar:1.2.16:runtime (scope not updated to compile)
+[INFO] +- org.slf4j:jcl-over-slf4j:jar:1.6.2:runtime (scope not updated to compile)
+[INFO] +- org.slf4j:jul-to-slf4j:jar:1.6.2:runtime (scope not updated to compile)
+[INFO] +- org.slf4j:slf4j-api:jar:1.6.2:runtime (scope not updated to compile)
+[INFO] +- org.springframework:spring-core:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  \- (org.springframework:spring-asm:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-aop:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  +- (aopalliance:aopalliance:jar:1.0:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-asm:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-aspects:jar:3.1.0.RC1:runtime
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-context:jar:3.1.0.RC1:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-context-support:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-asm:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] +- org.springframework:spring-beans:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  \- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-context:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  +- (org.springframework:spring-aop:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-expression:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-asm:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-context-support:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-context:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-expression:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  \- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-jdbc:jar:3.1.0.RC1:runtime
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-tx:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-jms:jar:3.1.0.RC1:runtime
+[INFO] |  +- (aopalliance:aopalliance:jar:1.0:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-aop:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-context:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-tx:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-orm:jar:3.1.0.RC1:runtime
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-jdbc:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-tx:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-tx:jar:3.1.0.RC1:runtime
+[INFO] |  +- (aopalliance:aopalliance:jar:1.0:compile - scope updated from runtime; omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-aop:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-context:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] +- org.springframework:spring-web:jar:3.1.0.RC1:runtime (scope not updated to compile)
+[INFO] |  +- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  +- (org.springframework:spring-beans:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  +- (org.springframework:spring-context:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] |  \- (org.springframework:spring-core:jar:3.1.0.RC1:runtime - omitted for duplicate)
+[INFO] \- org.springframework:spring-webmvc:jar:3.1.0.RC1:compile
+[INFO]    +- (org.springframework:spring-asm:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO]    +- (org.springframework:spring-beans:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO]    +- (org.springframework:spring-context:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO]    +- (org.springframework:spring-context-support:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO]    +- (org.springframework:spring-core:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO]    +- (org.springframework:spring-expression:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO]    \- (org.springframework:spring-web:jar:3.1.0.RC1:compile - omitted for duplicate)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 14.770s
+[INFO] Finished at: Sat Nov 26 14:38:48 PST 2011
+[INFO] Final Memory: 11M/81M
+[INFO] ------------------------------------------------------------------------

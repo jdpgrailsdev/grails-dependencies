@@ -5,7 +5,7 @@
     <groupId>org.grails</groupId>
     <artifactId>grails-dependencies</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.0.BUILD-SNAPSHOT</version>
+    <version>2.0.0</version>
 
     <name>Grails dependencies</name>
     <description>POM file containing Grails dependencies.</description>
