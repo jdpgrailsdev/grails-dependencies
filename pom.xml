@@ -15,6 +15,12 @@
 		<groovy.version>1.8.4</groovy.version>
 		<spring.version>3.1.0.RELEASE</spring.version>
 		<slf4j.version>1.6.2</slf4j.version>
+		<datastore.version>1.0.0</datastore.version>
+		<aspectj.version>1.6.10</aspectj.version>
+		<log4j.version>1.2.16</log4j.version>
+		<cglib.version>2.2</cglib.version>
+		<asm.version>3.1</asm.version>
+		<ehcache.version>2.4.6</ehcache.version>
 	</properties>
 
     <dependencies>
@@ -230,7 +236,7 @@
         <dependency>
             <groupId>org.grails</groupId>
             <artifactId>grails-datastore-core</artifactId>
-            <version>1.0.0.RC3</version>
+            <version>${datastore.version}</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.grails</groupId>
@@ -827,19 +833,19 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjweaver</artifactId>
-			<version>1.6.10</version>
+			<version>${aspectj.version}</version>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-			<version>1.6.10</version>
+			<version>${aspectj.version}</version>
 			<scope>runtime</scope>			
 		</dependency>
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
-			<version>2.2</version>
+			<version>${cglib.version}</version>
 			<scope>runtime</scope>	
 			<exclusions>
 				<exclusion>
@@ -851,7 +857,7 @@
 		<dependency>
 			<groupId>asm</groupId>
 			<artifactId>asm</artifactId>
-			<version>3.1</version>
+			<version>${asm.version}</version>
 			<scope>runtime</scope>			
 		</dependency>	
 		<dependency>
@@ -902,12 +908,6 @@
 				</exclusion>
 			</exclusions>			
 		</dependency>
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.1.1</version>
-			<scope>runtime</scope>
-		</dependency>		
 		<dependency>
 			<groupId>commons-pool</groupId>
 			<artifactId>commons-pool</artifactId>
@@ -961,7 +961,7 @@
 		<dependency>
 			<groupId>net.sf.ehcache</groupId>
 			<artifactId>ehcache-core</artifactId>
-			<version>2.4.6</version>
+			<version>${ehcache.version}</version>
 			<scope>runtime</scope>
 			<exclusions>
 				<exclusion>
@@ -973,7 +973,7 @@
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.16</version>
+			<version>${log4j.version}</version>
 			<scope>runtime</scope>			
 		</dependency>			
 		<dependency>
