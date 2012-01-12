@@ -5,12 +5,10 @@ buildscript {
 	}
    
     dependencies {
-        classpath group: 'org.grails', name: 'grails-dependency-generator-task', version: '2.1.0.BUILD-SNAPSHOT'
+        classpath group: 'org.grails', name: 'grails-dependency-generator-task', version: '2.0.1.BUILD-SNAPSHOT'
     }
 }
 
-//grailsVersion = '2.1.0.BUILD-SNAPSHOT'
-
 task generate(type: org.gradle.grails.dependency.task.GrailsDependencyGenerationTask) {
-	grailsVersion = '2.1.0.BUILD-SNAPSHOT'
+	grailsVersion = '2.0.1.BUILD-SNAPSHOT'
 }

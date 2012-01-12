@@ -1,3 +1,4 @@
+.gradle/
 .settings/org.maven.ide.eclipse.prefs
 .project
 pom.xml
