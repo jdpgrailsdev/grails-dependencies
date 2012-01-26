@@ -5,7 +5,7 @@
     <groupId>org.grails</groupId>
     <artifactId>grails-dependencies</artifactId>
     <packaging>pom</packaging>
-    <version>2.0.0</version>
+    <version>2.0.0.BUILD-SNAPSHOT</version>
 
     <name>Grails dependencies</name>
     <description>POM file containing Grails dependencies.</description>
@@ -1110,4 +1110,19 @@
             <url>http://repo.grails.org/grails/core</url>
         </repository>
     </repositories>
+    
+    <distributionManagement>        
+        <repository>
+          <id>artifactory</id>
+          <name>artifactory repo</name>
+          <url>scp://repo1/maven2</url>
+          <layout>http://repo.grails.org/grails/libs-releases-local</layout>
+        </repository>
+        <snapshotRepository>
+          <uniqueVersion>true</uniqueVersion>
+          <id>artifactory</id>
+          <name>artifactory repo</name>
+          <url>http://repo.grails.org/grails/libs-snapshots-local</url>
+        </snapshotRepository>        
+    </distributionManagement>
 </project>
