@@ -1115,8 +1115,7 @@
         <repository>
           <id>artifactory</id>
           <name>artifactory repo</name>
-          <url>scp://repo1/maven2</url>
-          <layout>http://repo.grails.org/grails/libs-releases-local</layout>
+          <url>http://repo.grails.org/grails/libs-releases-local</url>
         </repository>
         <snapshotRepository>
           <uniqueVersion>true</uniqueVersion>
