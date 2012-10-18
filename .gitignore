@@ -2,3 +2,8 @@
 .settings/org.maven.ide.eclipse.prefs
 .project
 pom.xml
+
+.classpath
+.project
+.settings/
+target/

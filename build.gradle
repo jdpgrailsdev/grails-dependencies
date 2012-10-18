@@ -1,14 +1,22 @@
 buildscript {
-	repositories {
-		mavenLocal()
-		mavenRepo(url:'http://repo.grails.org/grails/core')
-	}
-   
+    repositories {
+        mavenLocal()
+        maven {
+            url 'http://repo.grails.org/grails/core'
+        }
+        mavenCentral()
+    }
+
     dependencies {
-        classpath group: 'org.grails', name: 'grails-dependency-generator-task', version: '2.0.1.BUILD-SNAPSHOT'
+		classpath("org.grails:grails-dependency-generator-task:1.0.0-SNAPSHOT") {
+			transitive = false
+		}
+	    classpath("org.grails:grails-bootstrap:${project.grailsVersion}") {
+			transitive = false
+		}
     }
 }
 
 task generate(type: org.gradle.grails.dependency.task.GrailsDependencyGenerationTask) {
-	grailsVersion = '2.0.1.BUILD-SNAPSHOT'
+    grailsVersion = project.grailsVersion
 }
