@@ -17,6 +17,7 @@ buildscript {
     }
 }
 
-task generate(type: org.gradle.grails.dependency.task.GrailsDependencyGenerationTask) {
+task generate(type: org.grails.gradle.task.dependency.GrailsDependencyGenerationTask) {
     grailsVersion = project.grailsVersion
+	scope = project.dependencyScope
 }
